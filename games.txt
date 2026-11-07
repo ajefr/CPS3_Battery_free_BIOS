@@ -1,0 +1,10 @@
+# One line per CD: image.cue key1 key2 map [options/patches]   (see tools/build_bios.py)
+# The first line is the default game. Put your own CD images in iso/ (or edit
+# the paths). Keys: MAME src/mame/capcom/cps3.cpp.
+iso/cap-33s-2.cue  a55432b4 0c129981 maps/sfiii3.npz   header=06700000
+iso/cap-33s-1.cue  a55432b4 0c129981 maps/sfiii3r1.npz header=06700000
+iso/cap-sf3-3.cue  b5fe053e fc03925a maps/sfiii.npz    header=06513800,asia=8,nocd=2
+iso/cap-3ga000.cue 0 0 maps/sfiii2.npz                 header=06700000,asia=8,nocd=2
+iso/cap-jjk000.cue 02203ee3 01301972 maps/jojo.npz     header=06680000,0600124c=c911400e:c,06001250=000b0009:c
+iso/cap-jjm-0.cue  23323ee3 03021972 maps/jojoba.npz   header=06680000,06001250=c911400e:c,06001254=000b0009:c
+iso/cap-wzd-5.cue  9e300ab1 a175b82c maps/redearth.npz header=06765000,nocd=8,06010de8=0001fecb,06010ec4=0001fecb,06011218=0001fecb
